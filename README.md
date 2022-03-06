@@ -29,10 +29,10 @@
  ***Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex)***
  * Figuring out the endprice for each ticker within the loop had to be done by comparing next value of the ticker rows 
  ***Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex)***
- * Identifying the code causing more time and refactoring it. Explained in Detail in Refactoring vba script [Views on Refactoring the vba script](#Refactoring-the-vba-script)
+ * Identifying the code causing more time and refactoring it. Explained in Detail in Refactoring vba script [Markdown - Views on Refactoring the vba script](#Refactoring-the-vba-script)
 
  
-    
+ [Markdown - Views on Refactoring in General](#Refactoring-the-vba-script)
 
 ## Summary
  ### Views on Refactoring in General
@@ -44,7 +44,7 @@
  ** Disadvantages **
 	- Time consuming
 
- ### Views on Refactoring the vba script(#Refactoring-the-vba-script)
+ ### Views on Refactoring the vba script
   ** Advantages **
 	- Instead of nested for loop, Initializing totalVolumn seperately before iterating through rows works faster. This is because when we initialize seperately it will execute only 11 times. Where as when its as part of nested loop, the overall iterations will be 11 * number of rows.
 	- Switching between worksheets also increase the time - Best way to do is process the data from one worksheet (here the year worksheet) and store in the local array variables and then open the worksheet (All stock Analysis) to display the data 
