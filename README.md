@@ -6,24 +6,24 @@
 ### Purpose
  * Display Ticker wise total volume data byt processing the code with lease amount of time.
  * User should be able to enter the year for which he/she wants to view the data.
-
+[Views on Refactoring the vba script](###Refactoring-the-vba-script)
 
 ### Background
  * We need to provide a button for generating data
  * Ask user to input the year for which they need to generate data
  * Populate data in the "All Stock Analysis" sheet for the selected year
- * Project File can be accessed here [VBA_Challenge.xlsm] [https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/vba_Challenge.xlsm]
+ * Project File can be accessed here [VBA_Challenge.xlsm](https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/vba_Challenge.xlsm)
 
 ## Results
 
 ### Analysis
  * For the year 2017 the ending CLOSE price is higher than the starting CLOSE price. Due to this the return is in profit for most of the tickers except TERP
  * TERP has a negative return .
- * Here is the snapshot of the data generated for 2017 [2017 DQ All Stock Analysis - VBA_Challenge_2017.png] (https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/Resources/VBA_Challenge_2017.png)
+ * Here is the snapshot of the data generated for 2017 [2017 DQ All Stock Analysis - VBA_Challenge_2017.png](https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/Resources/VBA_Challenge_2017.png)
 
  * For the year 2018 the ending CLOSE price lower than that starting CLOSE price for most of the tickers. 
  * That results in most of the ticker were in loss in 2018.
- * Here is the snapshot of the data generated for 2018 [2018 All Stock Analysis - VBA_Challenge_2018.png] (https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/Resources/VBA_Challenge_2018.png) 
+ * Here is the snapshot of the data generated for 2018 [2018 All Stock Analysis - VBA_Challenge_2018.png](https://github.com/DeepaGheewala/stocks-analysis/blob/fba3f0cd97161073239e8849cd970af687b26295/Resources/VBA_Challenge_2018.png) 
 
 ### Challenges
  * Figuring out the startprice for each ticker within the loop had to be done by comparing previous value of the ticker rows 
