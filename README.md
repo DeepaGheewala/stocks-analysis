@@ -6,7 +6,6 @@
 ### Purpose
  * Display Ticker wise total volume data byt processing the code with lease amount of time.
  * User should be able to enter the year for which he/she wants to view the data.
-[Views on Refactoring the vba script](###Refactoring-the-vba-script)
 
 ### Background
  * We need to provide a button for generating data
@@ -45,7 +44,7 @@
  ** Disadvantages **
 	- Time consuming
 
- ### Views on Refactoring the vba script 
+ # Views on Refactoring the vba script 
   ** Advantages **
 	- Instead of nested for loop, Initializing totalVolumn seperately before iterating through rows works faster. This is because when we initialize seperately it will execute only 11 times. Where as when its as part of nested loop, the overall iterations will be 11 * number of rows.
 	- Switching between worksheets also increase the time - Best way to do is process the data from one worksheet (here the year worksheet) and store in the local array variables and then open the worksheet (All stock Analysis) to display the data 
