@@ -29,10 +29,7 @@
  ***Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex)***
  * Figuring out the endprice for each ticker within the loop had to be done by comparing next value of the ticker rows 
  ***Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex)***
- * Identifying the code causing more time and refactoring it. Explained in Detail in Refactoring vba script [Markdown - Views on Refactoring the vba script](#Refactoring-the-vba-script)
-
- 
- [Markdown - Views on Refactoring the vba script](#Refactoring-the-vba-script)
+ * Identifying the code causing more time and refactoring it. Explained in Detail in Refactoring vba script [Views on Refactoring the vba script](#Refactoring)
 
 ## Summary
  ### Views on Refactoring in General
