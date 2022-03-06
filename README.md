@@ -32,7 +32,7 @@
  * Identifying the code causing more time and refactoring it. Explained in Detail in Refactoring vba script [Markdown - Views on Refactoring the vba script](#Refactoring-the-vba-script)
 
  
- [Markdown - Views on Refactoring in General](#Refactoring-the-vba-script)
+ [Markdown - Views on Refactoring the vba script](#Refactoring-the-vba-script)
 
 ## Summary
  ### Views on Refactoring in General
