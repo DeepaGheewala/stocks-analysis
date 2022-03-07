@@ -43,8 +43,11 @@
 
  ### Views on Refactoring the vba script
   #### Advantages
-	- Instead of nested for loop, Initializing totalVolumn seperately before iterating through rows works faster. This is because when we initialize seperately it will execute only 11 times. Where as when its as part of nested loop, the overall iterations will be 11 * number of rows.
-	- Switching between worksheets also increase the time - Best way to do is process the data from one worksheet (here the year worksheet) and store in the local array variables and then open the worksheet (All stock Analysis) to display the data 
+	- Instead of nested for loop, Initializing totalVolumn seperately before iterating through rows works faster. 
+	  This is because when we initialize seperately it will execute only 11 times. 
+	  Where as when its as part of nested loop, the overall iterations will be 11 * number of rows.
+	- Switching between worksheets also increase the time 
+	  Best way to do is process the data from one worksheet (here the year worksheet) and store in the local array variables and then open the worksheet (All stock Analysis) to display the data 
 	- Initializing Array prcoess faster as it knows the correct data type and no casting required.
 
  #### Disadvantages 
