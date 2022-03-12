@@ -1,7 +1,7 @@
 # stocks-analysis
 
 ## Overview of Project
-** Performance Improvement Analysis ** - Here we need to find out the time taken to generate requried output of a large stock dataset after refactoring the code.
+**Performance Improvement Analysis** - Here we need to find out the time taken to generate requried output of a large stock dataset after refactoring the code.
  
 ### Purpose
  * Display Ticker wise total volume data byt processing the code with lease amount of time.
